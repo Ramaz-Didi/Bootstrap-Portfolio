@@ -1,4 +1,51 @@
-*{
+ {
     margin:0px;
-  }
+  } 
+  /* .jumbotron{
+    max-height: 150px;
+    margin-top: 0px;
+    padding: 0px;
+    background-image: url("../images/veloce-logo.png");
+    image-rendering: auto;
+} */
+
+  .jumboText{ 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* max-height: 100px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(76, 163, 92);
+    display: inline-block;
+    /* margin-top: 10px; */
+    height: 15vh;
+    color: rgb(12, 202, 88);
+    background-image: url("../images/veloce-logo.png");
+    background-size:100%;
+    /* object-fit: scale-down; */
+    image-rendering: auto;
+ }  
   
+ /* .lead{
+  position: relative;
+ } */
+ .nav-tabs{
+  display: flex;
+   position: relative;
+    top: 150px;
+    left: 0px;
+ }
+ .row{
+  display: flex;
+  justify-content: center;
+   position: relative;
+    top: 150px;
+    left: 0px;
+ }
+ .footer{
+  display: flex;
+  justify-content: center;
+   position: relative;
+    top: 350px;
+    left: 0px;
+ }
