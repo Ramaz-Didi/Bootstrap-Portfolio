@@ -1,51 +1,187 @@
- {
-    margin:0px;
-  } 
-  /* .jumbotron{
-    max-height: 150px;
-    margin-top: 0px;
-    padding: 0px;
-    background-image: url("../images/veloce-logo.png");
-    image-rendering: auto;
+{
+   margin:0px;
+ } 
+ /* .jumbotron{
+   max-height: 150px;
+   margin-top: 0px;
+   padding: 0px;
+   background-image: url("../images/veloce-logo.png");
+   image-rendering: auto;
 } */
 
-  .jumboText{ 
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    /* max-height: 100px; */
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(76, 163, 92);
-    display: inline-block;
-    /* margin-top: 10px; */
-    height: 15vh;
-    color: rgb(12, 202, 88);
-    background-image: url("../images/veloce-logo.png");
-    background-size:100%;
-    /* object-fit: scale-down; */
-    image-rendering: auto;
- }  
-  
- /* .lead{
+ .jumboText{ 
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   text-align: center;
+   vertical-align: center;
+   /* max-height: 100px; */
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: rgb(76, 163, 92);
+   display: inline-block;
+   /* margin-top: 10px; */
+   height: 15vh;
+   color: rgb(12, 202, 88);
+   background-image: url("../images/veloce-logo.png");
+   background-size:100%;
+   /* object-fit: scale-down; */
+   image-rendering: auto;
+}  
+.jumboText h1{
+ vertical-align: center;
+ margin-top: 15px;
+}
+ 
+/* .lead{
+ position: relative;
+} */
+.nav-tabs{
+ display: flex;
   position: relative;
- } */
- .nav-tabs{
-  display: flex;
-   position: relative;
-    top: 150px;
-    left: 0px;
+   top: 150px;
+   left: 0px;
+}
+.row{
+ display: flex;
+ justify-content: center;
+  position: relative;
+   top: 150px;
+   left: 0px;
+}
+.card-body{
+ display: block;
+ align-content: center;
+ font-size: medium;
+ font-style: italic;
+
+}
+.footer{
+ display: flex;
+ justify-content: center;
+  position: relative;
+   top: 350px;
+   left: 0px;
+}
+
+img{
+ margin-right: 20px;
+ width:300px;
+ height: 200px;
+ padding:5px;
+ object-fit: fill;
+}
+
+.angry-grid {
+  display: grid; 
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  grid-template-areas: 
+ 'label0 label1 label2 label3';
+  
+  gap: 10px;
+  height: 100%;
+  
+}
+ 
+#item-0 {
+ grid-area: label0;
+}
+#item-1 {
+ grid-area: label1;
+}
+#item-2 {
+ grid-area: label2;
+}
+#item-3 {
+ grid-area: label3;
+}
+container{
+   display: block;
+   height: 350px;
+   margin-left: 40;
+   font-size: 10px;
  }
- .row{
-  display: flex;
-  justify-content: center;
-   position: relative;
-    top: 150px;
-    left: 0px;
+.row{
+   margin-bottom: 100px;
+   display: block;
+   height:350px;
  }
- .footer{
-  display: flex;
-  justify-content: center;
+div h3{
+ color:black;
+ font-size: 20px;
+ text-align: center;
+ margin-right: 20px;
+}
+
+////////////////
+a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+Ramaz
+Ramaz Kartozia
+a {
+  box-shadow: inset 0 0 0 0 #062c3a;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+div h3:hover {
+  box-shadow: inset 300px 15px 20px 0 #54d677;
+  color: white;
+}
+///////////////
+
+.angry-grid2 {
+   display: grid; 
+  
+   grid-template: 1fr / 1fr 1fr 1fr 1fr;
+   gap: 0px;
+   height: 100%;
+  
+}
+ 
+#item-10 {
+  margin-top: 30px;      
+  display: inline-flex;
+  justify-content:right;
+  align-items:center;
+  width:30%;
+
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  
+}
+#item-11 {
+   margin-top: 30px;      
+   gap: 40px;
+   justify-content:center;
+   align-items:center;
+   display: inline-flex;
+   width:60%;
+   grid-row: 1 / 2;
+   grid-column: 2 / 5;
+  
+}
+.card_photo{
    position: relative;
-    top: 350px;
-    left: 0px;
+   right: -200px;
+   top: -120px;
+   width:150px;
+   height:100px;
+   flex: right;
+ 
  }
+ Write to George Dvali
+ 
