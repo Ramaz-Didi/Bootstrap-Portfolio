@@ -1,15 +1,8 @@
-{
-   margin:0px;
- } 
- /* .jumbotron{
-   max-height: 150px;
-   margin-top: 0px;
-   padding: 0px;
-   background-image: url("../images/veloce-logo.png");
-   image-rendering: auto;
-} */
+*{
+   margin: 0px;
+}
 
- .jumboText{ 
+.jumboText{ 
    position: absolute;
    top: 0px;
    left: 0px;
@@ -115,8 +108,6 @@ div h3{
  text-align: center;
  margin-right: 20px;
 }
-
-////////////////
 a {
   box-shadow: inset 0 0 0 0 #54b3d6;
   color: #54b3d6;
@@ -128,8 +119,6 @@ a:hover {
   box-shadow: inset 100px 0 0 0 #54b3d6;
   color: white;
 }
-Ramaz
-Ramaz Kartozia
 a {
   box-shadow: inset 0 0 0 0 #062c3a;
   color: #54b3d6;
@@ -141,8 +130,6 @@ div h3:hover {
   box-shadow: inset 300px 15px 20px 0 #54d677;
   color: white;
 }
-///////////////
-
 .angry-grid2 {
    display: grid; 
   
@@ -183,5 +170,4 @@ div h3:hover {
    flex: right;
  
  }
- Write to George Dvali
  
